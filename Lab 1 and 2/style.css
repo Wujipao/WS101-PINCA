@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+}
+body{
+    background-color:beige;
+    
+}
+header {
+    background-color: rgb(56, 87, 172);
+    text-align: center;
+    margin-top: 0;
+
+}
+.head{
+    background-color: rgb(56, 87, 172);
+    margin-top: 0;
+    padding-bottom: 20px
+}
+.head h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 5px;
+    padding-top: 20px;
+    margin-bottom: 2px;
+    font-size: 2em;
+}
+.head h4{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 2px;
+    padding-bottom: 10px;
+    color: white;
+}
+.head img{
+    width : 120px;
+    height: 120px;
+    border-radius: 100%;
+    border: 4px solid white;
+}
+.contacts-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(209, 207, 207);
+    padding: 20px;
+}
+.contacts-container .contacts-1{
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    padding-right: 50px;
+
+}
+.contacts-container .contacts-2{
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    padding-left: 50px;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+
+}
+
+.information .first-column{
+    margin: 20px;
+    justify-content: center;
+}
+
+.information .first-column .about-me{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    padding: 2px;
+}
+
+.information .first-column .awards{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    padding: 2px;
+}
+
+.information .first-column p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 2px;
+}
+
+.information .first-column ul{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 2px;
+}
+
+.information .first-column .skills{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    padding: 2px;
+}
+
+.information .second-column {
+    margin: 20px;
+    justify-content: center;
+}
+
+.information .second-column .work-experience{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 2px;
+}
+
+.information .second-column p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 2px;
+}
+.information .second-column .education{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 2px;
+}
+
+.information .second-column h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 2px;
+}
+
+.information .second-column h5{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    padding: 2px;
+}
+.information .second-column ul {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 2px;
+}
+
+@media (max-width: 768px){
+    .information {
+        display: grid;
+        grid-template-columns: repeat (3, lfr);
+        gap: 1rem;
+    }
+}
+
+
+
