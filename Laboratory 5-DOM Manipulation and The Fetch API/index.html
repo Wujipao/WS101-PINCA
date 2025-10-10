@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Registration (CRUD)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <h1>MY TO DO LIST</h1>
+    <h3>Paolo Leandro Pinca</h3>
+
+    <table id="todoTable">
+    <thead>
+      <tr>
+        <th>Description</th>
+        <th>Target Date</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <h2>ADD TO DO LIST</h2>
+    <form id="todo-form">
+        <input type="hidden" id="todo-id" />
+
+        <label for="description">Task Description:</label>
+        <input type="text" id="description" placeholder="Enter a task..." required />
+
+        <label for="due-date">Due Date:</label>
+        <input type="date" id="due-date" required />
+
+        <div class="status">
+            <label for="done">Completed (Check the box if task is completed):</label>
+            <input type="checkbox" id="done" />
+        </div>
+
+        <button type="submit">Add Task</button>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
