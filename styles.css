@@ -1,0 +1,128 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #ceebff, #b0d2ff, #b699d1);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: #01023a;
+}
+
+h2 {
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 3em;
+    margin-top: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+    margin-top: -10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #1b3a57;
+    color: white
+}
+
+td button {
+    font-weight: bold;
+    color: #030303;
+    width: 100px;
+    border: none;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    align-self: center;
+}
+
+button.edit-btn {
+    background-color: #92e2e2; 
+    margin: 5px
+}
+
+button.edit-btn:hover {
+    background-color: #00deee; 
+}
+
+button.delete-btn {
+    background-color: #df9f9f;
+    margin: 5px;
+}
+
+button.delete-btn:hover {
+    background-color: #dc2626;
+}
+
+form {
+    margin-top: -10px;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #142b44;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: aliceblue;
+    font-style: bold;
+}
+
+
+.status-group {
+    gap: 10px;
+}
+
+input[type="text"],
+input[type="date"] {
+    background-color: #ffffff;
+    color: #06153f;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    font-weight: bold;
+    background: #b5d7ff;
+    color: #030303;
+    width: 200px;
+    border: none;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    align-self: center;
+}
+
+button:hover {
+    background: #b396c0;
+}
