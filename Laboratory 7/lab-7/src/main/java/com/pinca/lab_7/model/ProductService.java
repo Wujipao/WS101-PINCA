@@ -24,7 +24,7 @@ public class ProductService {
     }
     public Product create(Product newProduct){
         long newId = idGenerator.incrementAndGet();
-        newProduct.setID(newId);
+        newProduct.setId(newId);
         products.put(newId, newProduct);
         return newProduct;
     }
